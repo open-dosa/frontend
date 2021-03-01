@@ -1,0 +1,19 @@
+emmet 
+
+atom-beautify	
+autocomplete-paths
+api-docs
+
+ linter
+  lintercsslint
+  linter-htmlhint
+  linter-eslint
+  
+devdocs.io
+developer.mozilla.org/en-US
+html5please.com
+caniuse.com	
+
+mkdir -p front-end-dev-book/ottergram
+
+npm install -g browser-sync
