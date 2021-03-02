@@ -1,6 +1,6 @@
-emmet 
+emmet
 
-atom-beautify	
+atom-beautify
 autocomplete-paths
 api-docs
 
@@ -8,12 +8,15 @@ api-docs
   lintercsslint
   linter-htmlhint
   linter-eslint
-  
+
 devdocs.io
 developer.mozilla.org/en-US
 html5please.com
-caniuse.com	
+caniuse.com
 
 mkdir -p front-end-dev-book/ottergram
 
 npm install -g browser-sync
+
+
+browser-sync start --server   --files "stylesheets/*.css, *.html"
